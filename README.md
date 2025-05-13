@@ -1,8 +1,7 @@
 # React-Projects-Showcase
-Building Functional and Interactive Applications
 
 Developed a series of functional and interactive web applications using React, showcasing expertise in modern front-
-end development practices, state management, and UI/UX design.
+end development practices, state management, and UI/UX design. These projects demonstrate proficiency in React, Redux Toolkit, Context API, React Router, and TailwindCSS.
 
 ### Custom React Renderer:
 Built a custom React-like renderer to understand the fundamentals of React's virtual DOM and rendering process.
@@ -30,3 +29,15 @@ Implemented a theme switcher with light and dark modes using Context API and Tai
 
 ### Todo Application: 
 Built a fully functional Todo app with Context API and local state management, featuring CRUD operations and task completion toggling.
+
+### Redux Toolkit Todo App: 
+Built a Redux-based Todo app to demonstrate state management with Redux Toolkit, including actions, reducers, and a global store.
+
+### Technologies Used:
+**Frontend:** React, React Router, Context API, Redux Toolkit, TailwindCSS
+
+**State Management:** React Hooks, Context API, Redux Toolkit
+
+**Build Tools:** Vite, ESLint
+
+**Other Tools:** Fetch API, LocalStorage, Git

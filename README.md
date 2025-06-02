@@ -6,8 +6,8 @@ end development practices, state management, and UI/UX design. These projects de
 ### Custom React Renderer:
 Built a custom React-like renderer to understand the fundamentals of React's virtual DOM and rendering process.
 
-### Counter Application: 
-Created a simple counter app to demonstrate state management using React hooks.
+### Counter Application with Docker Integration: 
+Created a simple counter app to demonstrate state management using React hooks. Containerized with Docker for consistent development and deployment environments.
 
 ### Background Color Changer: 
 Implemented a dynamic background color changer with interactive buttons for real-time updates.
@@ -38,6 +38,6 @@ Built a Redux-based Todo app to demonstrate state management with Redux Toolkit,
 
 **State Management:** React Hooks, Context API, Redux Toolkit
 
-**Build Tools:** Vite, ESLint
+**Build Tools:** Vite, ESLint, Docker
 
 **Other Tools:** Fetch API, LocalStorage, Git

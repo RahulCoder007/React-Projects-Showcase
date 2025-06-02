@@ -1,0 +1,15 @@
+# dockefile creates container
+# from node image it bring node env as base in the container
+FROM node:22.16-alpine
+# call the folder as /app or /base
+WORKDIR /app
+# copying package package-lock to the /app folder in container
+COPY package*.json ./
+# install node_modules (dependencies) during build image phase
+RUN npm install 
+# after installing node_modules copy all the files from local m/c to current dir(/app)
+COPY . .
+# allowing anyone to access the container from this port
+EXPOSE 5173
+# when the image is ready to start the container/server
+CMD ["npm", "run", "dev"]

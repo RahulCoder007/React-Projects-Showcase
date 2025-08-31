@@ -33,6 +33,9 @@ Built a fully functional Todo app with Context API and local state management, f
 ### Redux Toolkit Todo App: 
 Built a Redux-based Todo app to demonstrate state management with Redux Toolkit, including actions, reducers, and a global store.
 
+### React Blog Post:
+Modern, full-featured production grade blog application built with React, Redux Toolkit, Appwrite, React Router, and Vite.
+
 ### Technologies Used:
 **Frontend:** React, React Router, Context API, Redux Toolkit, TailwindCSS
 
